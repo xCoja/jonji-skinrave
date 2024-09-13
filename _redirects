@@ -1,0 +1,8 @@
+# Redirect root to /leaderboard
+/ /leaderboard 200
+
+# Remove .html extension for skinrave.html
+/skinrave /skinrave.html 200
+
+# Handle missing pages
+/* /404.html 404
